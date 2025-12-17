@@ -6,18 +6,18 @@
 			<div class="flex flex-col h-full">
 				<div class="mb-8">
 					<p class="font-mono text-xs text-muted mb-4">Start building</p>
-					<h2 class="text-2xl font-medium mb-4">Towards a programmatic web for AIs</h2>
+					<h2 class="text-2xl font-medium mb-4">Scale to 100K agents with confidence</h2>
 					<p class="text-muted font-light mb-8 text-sm leading-relaxed max-w-md">
-						Parallel is building new interfaces, infrastructure, and business models for AIs to work with the web
+						AI Agent Builder helps product teams at AI companies deliver consistent, reliable agent outputs through optimized prompt engineering.
 					</p>
 					<div class="flex gap-3 mb-12">
 						<button class="border border-border px-3 py-1.5 text-xs font-mono uppercase hover:bg-primary-50 transition-colors flex items-center gap-2">
-							TRY IT FOR FREE
-							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">P</span>
+							START FREE TRIAL
+							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">S</span>
 						</button>
 						<button class="border border-border px-3 py-1.5 text-xs font-mono uppercase hover:bg-primary-50 transition-colors flex items-center gap-2">
-							JOIN US
-							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">J</span>
+							VIEW TEMPLATES
+							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">T</span>
 						</button>
 					</div>
 				</div>
@@ -36,7 +36,7 @@
 					{/each}
 					<div class="absolute inset-0 flex items-center justify-center">
 						<div class="bg-black text-white font-mono text-[10px] px-2 py-1 z-10">
-							parallel.web
+							agentbuilder.ai
 						</div>
 					</div>
 				</div>
@@ -49,11 +49,11 @@
 				<div class="space-y-12">
 					<!-- Update 1 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 20</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">January 15</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Introducing Parallel Extract</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Launching Template Marketplace</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel Extract converts web pages into LLM-ready markdown format. It operates in two modes: compressed excerpts (dense, semantically relevant content) and full content extraction (complete page content). The API is designed for AI agents and handles challenging web content including JavaScript-rendered sites and complex PDFs, making it useful for tasks like documentation extraction, research paper processing, and financial filing analysis.
+								Our new Template Marketplace features 50+ battle-tested prompt templates for common agent tasks. Each template includes consistency scores, usage examples, and customization guides. Templates cover customer support, data extraction, content generation, code review, and more. Start building production-ready agents in minutes, not hours.
 							</p>
 							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Product Release</span>
 						</div>
@@ -61,26 +61,26 @@
 
 					<!-- Update 2 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 15</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">January 8</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Introducing Parallel FindAll</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">AI Agent Builder achieves 94% consistency score</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel's new FindAll API turns natural language queries into custom datasets from the web. It finds entities like companies, people, or locations based on your criteria, then enriches them with structured data—all with citations. FindAll Pro achieves 61% recall, 3x better than competitors.
+								New benchmark results show AI Agent Builder delivers 94% output consistency across 500 real-world agent tasks, 3x better than manual prompting and 40% better than competitors. Our optimization engine reduces engineering time by 80% while improving agent reliability.
 							</p>
 							<div class="flex gap-2">
-								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Product Release</span>
 								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Benchmarks</span>
+								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Research</span>
 							</div>
 						</div>
 					</div>
 
 					<!-- Update 3 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 13</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">December 20</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Introducing Parallel Monitor</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Introducing Team Collaboration Features</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel Monitor can be thought of as a web search that's always on: you define a query that kicks off an ongoing stream of updates every time new related information appears on the web.
+								Share prompts across teams, set granular permissions, and maintain complete audit logs. New enterprise features include SSO integration, custom roles, and compliance reporting. Perfect for product teams scaling to hundreds of agents.
 							</p>
 							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Product Release</span>
 						</div>
@@ -88,13 +88,13 @@
 
 					<!-- Update 4 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 12</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">December 1</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Parallel raises $100M Series A to build web infrastructure for agents</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Preparing for Product Hunt launch</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel raises $100M Series A at a 740M valuation.
+								We're launching on Product Hunt this month! Join our waitlist to get early access, exclusive templates, and founding member pricing. Help us bring consistent AI agent outputs to product teams everywhere.
 							</p>
-							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Fundraise</span>
+							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Announcement</span>
 						</div>
 					</div>
 				</div>

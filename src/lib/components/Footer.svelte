@@ -4,11 +4,10 @@
 			<!-- Logo Column -->
 			<div class="lg:col-span-2">
 				<a href="/" class="text-xl font-bold tracking-tight flex items-center gap-2 mb-4">
-					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-foreground">
-						<path d="M4 4H20V20H4V4Z" stroke="currentColor" stroke-width="2"/>
-						<path d="M8 4V20" stroke="currentColor" stroke-width="2"/>
-						<path d="M16 4V20" stroke="currentColor" stroke-width="2"/>
-						<path d="M4 12H20" stroke="currentColor" stroke-width="2"/>
+					<svg width="24" height="13" viewBox="0 0 116 63" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-foreground">
+						<path d="M115.364 0H74.4491C71.5379 0 68.7844 1.32346 66.9657 3.59662L63.1372 8.38254C61.3185 10.6557 58.5649 11.9792 55.6538 11.9792H19.5306L9.94727 23.9583H50.8621C53.7733 23.9583 56.5268 22.6349 58.3455 20.3617L62.174 15.5758C63.9927 13.3026 66.7462 11.9792 69.6574 11.9792H105.781L115.364 0Z" fill="currentColor"/>
+						<path d="M110.571 19.1665H69.6561C66.7449 19.1665 63.9914 20.49 62.1727 22.7631L58.3442 27.549C56.5255 29.8222 53.772 31.1457 50.8608 31.1457H14.7376L5.1543 43.1248H46.0691C48.9803 43.1248 51.7338 41.8014 53.5525 39.5282L57.3811 34.7423C59.1997 32.4691 61.9533 31.1457 64.8645 31.1457H100.988L110.571 19.1665Z" fill="currentColor"/>
+						<path d="M105.78 38.3333H64.8651C61.9539 38.3333 59.2004 39.6567 57.3817 41.9299L53.5532 46.7158C51.7345 48.989 48.981 50.3124 46.0698 50.3124H9.94661L0.363281 62.2916H41.2781C44.1893 62.2916 46.9428 60.9681 48.7615 58.695L52.59 53.909C54.4087 51.6359 57.1623 50.3124 60.0734 50.3124H96.1966L105.78 38.3333Z" fill="currentColor"/>
 					</svg>
 				</a>
 			</div>
@@ -17,20 +16,20 @@
 			<div>
 				<h4 class="font-mono text-xs uppercase text-muted mb-4">Contact</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted">
-					<li><a href="mailto:hello@parallel.ai" class="hover:text-foreground">hello@parallel.ai</a></li>
+					<li><a href="mailto:hello@agentbuilder.ai" class="hover:text-foreground">hello@agentbuilder.ai</a></li>
 				</ul>
 			</div>
 
 			<!-- Products -->
 			<div>
-				<h4 class="font-mono text-xs uppercase text-muted mb-4">Products</h4>
+				<h4 class="font-mono text-xs uppercase text-muted mb-4">Features</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted">
-					<li><a href="#" class="hover:text-foreground">Search API</a></li>
-					<li><a href="#" class="hover:text-foreground">Extract API</a></li>
-					<li><a href="#" class="hover:text-foreground">Task API</a></li>
-					<li><a href="#" class="hover:text-foreground">FindAll API</a></li>
-					<li><a href="#" class="hover:text-foreground">Chat API</a></li>
-					<li><a href="#" class="hover:text-foreground">Monitor API</a></li>
+					<li><a href="#" class="hover:text-foreground">Templates</a></li>
+					<li><a href="#" class="hover:text-foreground">Optimizer</a></li>
+					<li><a href="#" class="hover:text-foreground">Version Control</a></li>
+					<li><a href="#" class="hover:text-foreground">A/B Testing</a></li>
+					<li><a href="#" class="hover:text-foreground">Analytics</a></li>
+					<li><a href="#" class="hover:text-foreground">Team Collaboration</a></li>
 				</ul>
 			</div>
 
@@ -38,12 +37,12 @@
 			<div>
 				<h4 class="font-mono text-xs uppercase text-muted mb-4">Resources</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted">
-					<li><a href="#" class="hover:text-foreground">About</a></li>
+					<li><a href="#" class="hover:text-foreground">Documentation</a></li>
 					<li><a href="#" class="hover:text-foreground">Pricing</a></li>
-					<li><a href="#" class="hover:text-foreground">Docs</a></li>
 					<li><a href="#" class="hover:text-foreground">Blog</a></li>
+					<li><a href="#" class="hover:text-foreground">Guides</a></li>
 					<li><a href="#" class="hover:text-foreground">Changelog</a></li>
-					<li><a href="#" class="hover:text-foreground">Careers</a></li>
+					<li><a href="#" class="hover:text-foreground">Community</a></li>
 				</ul>
 			</div>
 
@@ -88,7 +87,7 @@
 				</div>
 			</div>
 			<div>
-				Parallel Web Systems Inc. 2025
+				AI Agent Builder Inc. 2025
 			</div>
 		</div>
 	</div>
@@ -106,11 +105,11 @@
 		<div class="relative z-10 flex items-center gap-4 text-[10px] font-mono text-white/50">
 			<div class="flex items-center gap-2 text-white">
 				<span class="w-2 h-2 bg-white rounded-full"></span>
-				HUMAN
+				PROMPT
 			</div>
 			<div class="flex items-center gap-2">
 				<span class="w-2 h-2 border border-white/50 rounded-full"></span>
-				MACHINE
+				AGENT
 			</div>
 		</div>
 	</div>
